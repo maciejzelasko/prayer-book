@@ -1,22 +1,22 @@
 import { defineConfig } from 'vitepress'
+import { withPwa } from '@vite-pwa/vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "C3PO Notes",
-  description: "A VitePress Site",
+  base: '/prayer-book/',
+  title: "Tradycyjny modlitewnik katolicki",
+  description: "***",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Nawigacja',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Modlitwy codzienne', link: 'daily-prayers' }
         ]
       }
     ],
@@ -24,5 +24,19 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
-  }
+  },
+  locales: {
+    root: {
+      label: 'Polish',
+      lang: 'pl'
+    },
+    fr: {
+      label: 'English',
+      lang: 'en', // optional, will be added  as `lang` attribute on `html` tag
+      link: '/en/index' // default /en/ -- shows on navbar translations menu, can be external
+
+      // other locale specific properties...
+    }
+  },
+  pwa: {}
 })

@@ -3,26 +3,26 @@
 layout: home
 
 hero:
-  name: "C3PO Notes 1"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "Tradycyjny modlitewnik"
   actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Msza Święta sposoby słuchania cz. 1,2
+      link: /holy-mass-1-2/
     - theme: alt
-      text: Prayers
-      link: /prayers
+      text: Msza Święta sposoby słuchania cz. 3
+      link: /holy-mass-3/
+    - theme: alt
+      text: Modlitwy codziennie
+      link: /daily-prayers/
+    - theme: alt
+      text: Modlitwy
+      link: /prayers/
+    - theme: alt
+      text: Teksty łacińskie
+      link: /latin-text/
+    - theme: alt
+      text: Nabożeństwa pięciu pierwszych sobót miesiąca
+      link: /5-1st-Sat-Devotion/
 
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 

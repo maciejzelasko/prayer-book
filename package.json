@@ -1,6 +1,6 @@
 {
-  "dependencies": {},
   "devDependencies": {
+    "@vite-pwa/vitepress": "^0.5.3",
     "vitepress": "^1.5.0"
   },
   "scripts": {
