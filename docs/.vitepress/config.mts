@@ -11,7 +11,13 @@ export default withPwa(defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Start', link: '/' },
-      { text: 'Modlitwy', link: '/prayers' },
+      {
+        text: 'Modlitwy',
+        items: [
+          { text: 'Polskie', link: '/prayers' },
+          { text: 'Łacińskie', link: '/latin-text' },
+        ]
+      }
     ],
   },
   locales: {
