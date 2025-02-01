@@ -1,40 +1,43 @@
-import { defineConfig } from 'vitepress';
-import { withPwa } from '@vite-pwa/vitepress';
-import { loadEnv } from 'vite';
+import { defineConfig } from 'vitepress'
+import { withPwa } from '@vite-pwa/vitepress'
 
-// Manually get the mode from `process.env.NODE_ENV` or default to 'development'
-const mode = process.env.NODE_ENV || 'development';
 
-// Load environment variables
-const env = loadEnv(mode, process.cwd());
+// https://vitepress.dev/reference/site-config
+export default withPwa(defineConfig({
+  base: '/prayer-book/',
+  title: "Tradycyjny modlitewnik katolicki",
+  description: "***",
+  themeConfig: {
+    // https://vitepress.dev/reference/default-theme-config
+    nav: [
+      { text: 'Home', link: '/' },
+    ],
 
-// Export the configuration
-export default withPwa(
-  defineConfig({
-    base: env.VITE_BASE_URL || '/prayer-book/',
-    title: env.VITE_SITE_TITLE || 'Tradycyjny modlitewnik katolicki',
-    description: env.VITE_SITE_DESCRIPTION || '***',
-    themeConfig: {
-      nav: [{ text: 'Home', link: '/' }],
-      sidebar: [
-        {
-          text: 'Nawigacja',
-          items: [{ text: 'Modlitwy codzienne', link: 'daily-prayers' }]
-        }
-      ],
-      socialLinks: [{ icon: 'github', link: 'https://github.com/vuejs/vitepress' }]
-    },
-    locales: {
-      root: {
-        label: 'Polish',
-        lang: 'pl'
-      },
-      fr: {
-        label: 'English',
-        lang: 'en',
-        link: '/en/index'
+    sidebar: [
+      {
+        text: 'Nawigacja',
+        items: [
+          { text: 'Modlitwy codzienne', link: 'daily-prayers' }
+        ]
       }
+    ],
+
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+    ]
+  },
+  locales: {
+    root: {
+      label: 'Polish',
+      lang: 'pl'
     },
-    pwa: {}
-  })
-);
+    fr: {
+      label: 'English',
+      lang: 'en', // optional, will be added  as `lang` attribute on `html` tag
+      link: '/en/index' // default /en/ -- shows on navbar translations menu, can be external
+
+      // other locale specific properties...
+    }
+  },
+  pwa: {}
+}))
