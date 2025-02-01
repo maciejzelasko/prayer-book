@@ -10,21 +10,9 @@ export default withPwa(defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
+      { text: 'Start', link: '/' },
+      { text: 'Modlitwy', link: '/prayers' },
     ],
-
-    sidebar: [
-      {
-        text: 'Nawigacja',
-        items: [
-          { text: 'Modlitwy codzienne', link: 'daily-prayers' }
-        ]
-      }
-    ],
-
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
   },
   locales: {
     root: {
