@@ -1,9 +1,10 @@
 import { defineConfig } from 'vitepress'
 import { withPwa } from '@vite-pwa/vitepress'
 
+
 // https://vitepress.dev/reference/site-config
 export default withPwa(defineConfig({
-  base: import.meta.env.VITE_BASE_URL,
+  base: import.meta.env.VITEPRESS_BASE_URL,
   title: "Tradycyjny modlitewnik katolicki",
   description: "***",
   themeConfig: {
