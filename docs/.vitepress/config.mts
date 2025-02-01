@@ -25,6 +25,12 @@ export default withPwa(defineConfig({
           { text: 'Sposoby słuchania cz. 1, 2', link: '/holy-mass-1-2.md' },
           { text: 'Sposoby słuchania cz. 3', link: '/holy-mass-3' },
         ]
+      },
+      {
+        text: 'Nabożeństwa',
+        items: [
+          { text: '5 Pierwszych Sobót', link: '/5-1st-Sat-Devotion.md' },
+        ]
       }
     ],
   },
