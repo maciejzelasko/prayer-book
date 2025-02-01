@@ -14,8 +14,16 @@ export default withPwa(defineConfig({
       {
         text: 'Modlitwy',
         items: [
+          { text: 'Codzienne', link: '/daily-prayers' },
           { text: 'Polskie', link: '/prayers' },
           { text: 'Łacińskie', link: '/latin-text' },
+        ]
+      },
+      {
+        text: 'Msza Święta',
+        items: [
+          { text: 'Sposoby słuchania cz. 1, 2', link: '/holy-mass-1-2.md' },
+          { text: 'Sposoby słuchania cz. 3', link: '/holy-mass-3' },
         ]
       }
     ],
