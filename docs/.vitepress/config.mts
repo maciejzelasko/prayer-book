@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Prayer Book",
   description: "Prayer Book for Exodus90 users",
+  base: "/prayer-book/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
