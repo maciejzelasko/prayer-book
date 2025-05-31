@@ -49,10 +49,11 @@
   --vp-c-default-3: var(--vp-c-gray-3);
   --vp-c-default-soft: var(--vp-c-gray-soft);
 
-  --vp-c-brand-1: var(--vp-c-indigo-1);
-  --vp-c-brand-2: var(--vp-c-indigo-2);
-  --vp-c-brand-3: var(--vp-c-indigo-3);
-  --vp-c-brand-soft: var(--vp-c-indigo-soft);
+  /* Prayer book theme with warm, reverent colors */
+  --vp-c-brand-1: #8B4513; /* Saddle brown for text */
+  --vp-c-brand-2: #A0522D; /* Sienna for hover */
+  --vp-c-brand-3: #CD853F; /* Peru for backgrounds */
+  --vp-c-brand-soft: rgba(205, 133, 63, 0.14); /* Soft peru */
 
   --vp-c-tip-1: var(--vp-c-brand-1);
   --vp-c-tip-2: var(--vp-c-brand-2);
@@ -94,14 +95,14 @@
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(
     120deg,
-    #bd34fe 30%,
-    #41d1ff
+    #8B4513 30%,
+    #CD853F
   );
 
   --vp-home-hero-image-background-image: linear-gradient(
     -45deg,
-    #bd34fe 50%,
-    #47caff 50%
+    #8B4513 50%,
+    #D2B48C 50%
   );
   --vp-home-hero-image-filter: blur(44px);
 }
@@ -135,5 +136,103 @@
 
 .DocSearch {
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
+}
+
+/**
+ * Prayer Book Specific Styles
+ * -------------------------------------------------------------------------- */
+
+/* Enhanced typography for prayer text */
+.prayer-text {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  line-height: 1.8;
+  font-size: 1.1em;
+  color: var(--vp-c-text-1);
+  margin: 2rem 0;
+}
+
+.prayer-title {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: 1.5em;
+  font-weight: 600;
+  color: var(--vp-c-brand-1);
+  margin: 2rem 0 1rem 0;
+  text-align: center;
+  border-bottom: 2px solid var(--vp-c-brand-soft);
+  padding-bottom: 0.5rem;
+}
+
+.verse {
+  font-style: italic;
+  margin: 1rem 0;
+  padding-left: 2rem;
+  border-left: 3px solid var(--vp-c-brand-soft);
+  color: var(--vp-c-text-2);
+}
+
+.response {
+  font-weight: 600;
+  margin: 0.5rem 0;
+  color: var(--vp-c-brand-1);
+}
+
+.rubric {
+  font-size: 0.9em;
+  color: var(--vp-c-text-3);
+  font-style: italic;
+  margin: 0.5rem 0;
+}
+
+.prayer-section {
+  margin: 3rem 0;
+  padding: 2rem;
+  background: var(--vp-c-bg-soft);
+  border-radius: 8px;
+  border: 1px solid var(--vp-c-border);
+}
+
+/* Daily office time indicators */
+.time-indicator {
+  display: inline-block;
+  background: var(--vp-c-brand-soft);
+  color: var(--vp-c-brand-1);
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.8em;
+  font-weight: 500;
+  margin: 0.5rem 0;
+}
+
+/* Scripture reading styles */
+.reading {
+  background: var(--vp-c-bg-alt);
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  border-radius: 6px;
+  border-left: 4px solid var(--vp-c-brand-3);
+}
+
+.reading-reference {
+  font-size: 0.9em;
+  font-weight: 600;
+  color: var(--vp-c-brand-1);
+  margin-bottom: 1rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .prayer-text {
+    font-size: 1em;
+    line-height: 1.7;
+  }
+  
+  .prayer-section {
+    padding: 1rem;
+    margin: 2rem 0;
+  }
+  
+  .verse {
+    padding-left: 1rem;
+  }
 }
 
