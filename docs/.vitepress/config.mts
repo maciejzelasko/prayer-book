@@ -22,7 +22,6 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Daily Office', link: '/daily-office/' },
-      { text: 'Traditional Prayers', link: '/traditional-prayers/' },
       { text: 'Devotions', link: '/devotions/' }
     ],
     sidebar: [
@@ -32,12 +31,6 @@ export default defineConfig({
           { text: 'Morning Prayer', link: '/daily-office/morning-prayer' },
           { text: 'Evening Prayer', link: '/daily-office/evening-prayer' },
           { text: 'Night Prayer (Compline)', link: '/daily-office/night-prayer' }
-        ]
-      },
-      {
-        text: 'Traditional Prayers',
-        items: [
-          { text: 'Apostles\' Creed', link: '/traditional-prayers/apostles-creed' }
         ]
       },
       {
