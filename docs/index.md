@@ -15,9 +15,6 @@ features:
   - title: Daily Office
     details: Start and end each day with structured prayer including Morning Prayer, Evening Prayer, and Night Prayer (Compline)
     icon: 🌅
-  - title: Traditional Prayers
-    details: Access classic prayers including the Lord's Prayer, Hail Mary, Glory Be, and the Apostles' Creed
-    icon: 📿
   - title: Devotions
     details: Deepen your faith with the Rosary, Stations of the Cross, and Divine Mercy Chaplet
     icon: ✝️

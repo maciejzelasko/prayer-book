@@ -12,13 +12,10 @@ hero:
       link: /daily-office/morning-prayer
 
 features:
-  - title: Daily Office
+  - title: Modlitwy codzienne
     details: Start and end each day with structured prayer including Morning Prayer, Evening Prayer, and Night Prayer (Compline)
     icon: 🌅
-  - title: Traditional Prayers
-    details: Access classic prayers including the Lord's Prayer, Hail Mary, Glory Be, and the Apostles' Creed
-    icon: 📿
-  - title: Devotions
+  - title: Nabożeństwa
     details: Deepen your faith with the Rosary, Stations of the Cross, and Divine Mercy Chaplet
     icon: ✝️
   - title: Scripture Integration

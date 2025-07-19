@@ -25,7 +25,6 @@ export default defineConfig({
       { text: 'Traditional Prayers', link: '/traditional-prayers/' },
       { text: 'Devotions', link: '/devotions/' }
     ],
-
     sidebar: [
       {
         text: 'Daily Office',
