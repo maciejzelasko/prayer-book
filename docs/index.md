@@ -25,17 +25,3 @@ features:
     details: Each prayer session includes relevant scripture readings and meditations
     icon: 📖
 ---
-
-<div class="prayer-section">
-  <h2 class="prayer-title">Welcome to Your Digital Prayer Book</h2>
-  <div class="prayer-text">
-    <p>This prayer book is designed to support your spiritual journey through structured daily prayers, traditional devotions, and sacred readings. Whether you're beginning your day with Morning Prayer or ending it with Night Prayer, you'll find resources here to guide and enrich your prayer life.</p>
-    
-    <div class="verse">
-      "Pray without ceasing, give thanks in all circumstances; for this is the will of God in Christ Jesus for you." - 1 Thessalonians 5:17-18
-    </div>
-    
-    <p class="response">May this prayer book be a source of comfort, guidance, and spiritual growth in your daily walk with God.</p>
-  </div>
-</div>
-
