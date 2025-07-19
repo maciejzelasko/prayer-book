@@ -26,9 +26,6 @@ export default defineConfig({
       {
         text: 'Traditional Prayers',
         items: [
-          { text: 'The Lord\'s Prayer', link: '/traditional-prayers/lords-prayer' },
-          { text: 'Hail Mary', link: '/traditional-prayers/hail-mary' },
-          { text: 'Glory Be', link: '/traditional-prayers/glory-be' },
           { text: 'Apostles\' Creed', link: '/traditional-prayers/apostles-creed' }
         ]
       },

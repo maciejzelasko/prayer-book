@@ -10,9 +10,6 @@ hero:
     - theme: brand
       text: Begin Daily Office
       link: /daily-office/morning-prayer
-    - theme: alt
-      text: Traditional Prayers
-      link: /traditional-prayers/lords-prayer
 
 features:
   - title: Daily Office
