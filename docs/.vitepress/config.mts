@@ -22,16 +22,11 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Daily Office', link: '/daily-office/' },
-      { text: 'Devotions', link: '/devotions/' }
+      { text: 'Devotions', link: '/devotions/'  }
     ],
     sidebar: [
       {
-        text: 'Daily Office',
-        items: [
-          { text: 'Morning Prayer', link: '/daily-office/morning-prayer' },
-          { text: 'Evening Prayer', link: '/daily-office/evening-prayer' },
-          { text: 'Night Prayer (Compline)', link: '/daily-office/night-prayer' }
-        ]
+        text: 'Daily Office'
       },
       {
         text: 'Devotions',
