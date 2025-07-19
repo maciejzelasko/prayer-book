@@ -4,9 +4,6 @@ This section contains the foundational prayers of the Christian faith. These tim
 
 ## Available Prayers
 
-- **[The Lord's Prayer](./lords-prayer)** - The prayer Jesus taught his disciples
-- **[Hail Mary](./hail-mary)** - The angelic salutation and prayer to Mary
-- **[Glory Be](./glory-be)** - The traditional doxology
 - **[Apostles' Creed](./apostles-creed)** - The ancient statement of Christian faith
 
 ---
