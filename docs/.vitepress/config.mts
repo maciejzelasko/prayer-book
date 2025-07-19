@@ -5,6 +5,18 @@ export default defineConfig({
   title: "Prayer Book",
   description: "A digital prayer book for spiritual guidance and daily devotions",
   base: "/prayer-book/",
+  lang: 'en-US',
+  locales: {
+    root: {
+      label: 'English',
+      lang: 'en-US'
+    },
+    pl: {
+      label: 'Polski',
+      lang: 'pl-PL',
+      link: '/pl/'
+    }
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
